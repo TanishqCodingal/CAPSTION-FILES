@@ -1,0 +1,49 @@
+.ping {
+    position: relative;
+    opacity: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+.ping{
+background-image:url('bgimg.jpg') ;
+    min-height: 100%;}
+
+.section1 {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark{
+    background-color:rgba(0, 255, 98, 0.918)
+    color=aqua 
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width:100%;
+}
+.ptext .border{
+
+background-color: #111;
+
+color: #fff;
+
+padding: 20px;
+
+}
+
+.ptext .border.trans{
+
+background-color: transparent;
+
+}
+
+@media (max-width:568px){
+
+.pimg{
+
+background-attachment: scroll;
+
+}
+
+}
